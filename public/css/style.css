@@ -1,0 +1,145 @@
+body{
+  font-family: "Plus Jakarta Sans" , sans-serif !important;
+
+}
+
+
+/* Navbar */
+
+.navbar{
+
+    height: 5rem;
+    background-color: white !important;
+
+}
+
+.fa-plane{
+    color: #fe424d;
+    font-size: 2rem;
+}
+
+.nav-link{
+    color: #222222 !important;
+}
+.highlight{
+    color:#fe424d ;
+}
+
+/* Footer */
+
+.f-info-links a{
+    text-decoration: none !important;
+    color: #222222 !important;
+
+
+}
+.f-info-links:hover{
+    text-decoration: underline;
+}
+
+.f-info-links,.f-info-socials , .f-info-brand{
+    width: 100%;  
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.f-info-socials i {
+    font-size: 1.2rem;
+    margin-right: 1rem;
+}
+
+
+.f-info{
+    text-align: center;
+    display: flex;
+    height: 8rem;
+    background-color: #ebebeb;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    padding: 1rem;
+}
+/* Cards */
+.card{
+    border: none !important;
+    margin-bottom: 2rem;
+}
+
+.card-img-top{
+   border-radius: 1rem !important;
+   width: 100% !important;
+   object-fit: cover !important;
+}
+
+.card-body{
+    padding: 0 !important;
+
+}
+
+.card-text p {
+    font-weight: 400 !important;
+
+
+}
+
+.listing-link{
+    text-decoration: none;
+
+}
+
+/* Card Overlay */
+
+.card-img-overlay{
+    opacity: 0;
+}
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: white;
+    
+}
+
+.btn-red{
+   background-color:#fe424d  !important;
+
+
+}
+
+/* Show page */
+
+
+.show-img{
+    height: 30vh;
+    
+}
+
+
+
+/* Hero Section Styles */
+.hero-section {
+    background: url("/images/travel-bg.jpg") no-repeat center center/cover; /* ✅ Correct */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+
+/* Overlay for better text visibility */
+.hero-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+}
